@@ -10,12 +10,13 @@ public class ForLoop {
 		System.out.print("Enter the amount of numbers you want to sum: ");
 		num = input.nextInt();
 
-		while(num-- > 0) {
+		while (num-- > 0) {
 			System.out.print("Enter your next number: ");
 			sum = sum + (input.nextInt());
 		}
 
 		System.out.println("Sum off all numbers equals " + sum);
+		input.close();
 
 	}
 
