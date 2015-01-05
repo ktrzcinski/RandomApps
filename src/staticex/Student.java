@@ -37,4 +37,9 @@ public class Student {
 		counter++;
 	}
 
+	@Override
+	public String toString() {
+		return firstName + " " + lastName + ", SN = " + studentNo;
+	}
+
 }

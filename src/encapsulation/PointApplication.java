@@ -7,7 +7,7 @@ public class PointApplication {
 
 		Point p1 = new Point(1, 2);
 		PointController pc = new PointController();
-		System.out.println("Punkt przed zmianą: (" + p1.getX() + ", "
+		System.out.println("Point before change: (" + p1.getX() + ", "
 				+ p1.getY() + ")");
 
 		int option = ADD_Y;
@@ -26,10 +26,10 @@ public class PointApplication {
 			pc.minusY(p1);
 			break;
 		default:
-			System.out.println("Podano błędną wartość");
+			System.out.println("Invalid value");
 		}
 
-		System.out.println("Punkt po zmianie : (" + p1.getX() + ", "
+		System.out.println("Point after change: (" + p1.getX() + ", "
 				+ p1.getY() + ")");
 
 	}

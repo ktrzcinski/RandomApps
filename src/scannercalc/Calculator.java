@@ -20,7 +20,7 @@ public class Calculator {
 			result = a / b;
 			break;
 		default:
-			System.out.println("Podany operator nie istnieje!");
+			System.out.println("Provided operator doesn't exist!");
 		}
 
 		return result;

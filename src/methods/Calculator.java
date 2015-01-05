@@ -7,10 +7,10 @@ public class Calculator {
 		double b = 10.2;
 
 		Calculate calc1 = new Calculate();
-		System.out.println("Wynik dodawania to " + calc1.add(a, b));
-		System.out.println("Wynik odejmowania to " + calc1.subtract(a, b));
-		System.out.println("Wynik mnożenia to " + calc1.multiply(a, b));
-		System.out.println("Wynik dzielenia to " + calc1.divide(a, b));
+		System.out.println("Addiotion result is " + calc1.add(a, b));
+		System.out.println("Subtraction result is " + calc1.subtract(a, b));
+		System.out.println("Multiplication result is " + calc1.multiply(a, b));
+		System.out.println("Division result is " + calc1.divide(a, b));
 
 	}
 }
