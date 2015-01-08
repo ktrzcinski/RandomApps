@@ -30,4 +30,9 @@ public abstract class Person implements Serializable {
 		setFirstName(fn);
 		setLastName(ln);
 	}
+
+	@Override
+	public String toString() {
+		return firstName + " " + lastName;
+	}
 }

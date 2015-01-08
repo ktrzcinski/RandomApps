@@ -1,6 +1,7 @@
 package files;
 
 public class Employee extends Person {
+	
 	private static final long serialVersionUID = 45345345;
 	
 	private double salary;
@@ -16,5 +17,10 @@ public class Employee extends Person {
 	public Employee(String fn, String ln, double s) {
 		super(fn, ln);
 		setSalary(s);
+	}
+
+	@Override
+	public String toString() {
+		return super.toString() + ", salary " + salary;
 	}
 }
