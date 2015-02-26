@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class LoremIpsum {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 		final String FILE_NAME = "loremipsum.txt";
 		BufferedReader br = new BufferedReader(new FileReader(FILE_NAME));
